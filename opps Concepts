@@ -1,0 +1,56 @@
+Revision opps Concepts 
+
+Encapsulation:
+
+Encapsulation binds together code and the data it manipulates and keeps them both safe from outside interference and misuse. 
+
+Ex: ATM MAchine , Mail, text msg 
+
+Encapsulation means hiding the internal details or mechanics of how an object does something. 
+Abstraction is outer layout in terms of design.
+ For Example: - Outer Look of a iPhone, like it has a display screen. Encapsulation is inner layout in
+ terms of implementation.
+
+Inheritance
+
+Inheritance is the process by which one object acquires the properties of another object.
+Example 
+whatsApp publish
+
+Polymorphism
+
+Polymorphism is a feature that allows one interface to be used for a general class of action.
+ This concept is often expressed as "one interface, multiple actions". The specific action is determined by the exact nature of circumstances.
+
+human behavior. One person can have different behavior. 
+For example, a person acts as an employee in the office, a customer in the shopping mall,
+ a passenger in bus/train, a student in school, and a son at home.
+
+Classes 
+are special kinds of templates from which you can create objects.
+ Each object contains data and methods to manipulate and access that data. 
+The class defines the data and the functionality that each object of that class can contain.
+
+
+Partial classes
+ It can break the functionality of a single class into many files
+There are some rules for defining a partial class as in the following;
+
+A partial type must have the same accessibility.
+
+Each partial type is preceded with the "partial" keyword.
+
+If the partial type is sealed or abstract then the entire class will be sealed and abstract.
+
+Static classes
+
+A static class is declared using the "static" keyword.
+ If the class is declared as static then the compiler never creates an instance of the class. 
+All the member fields, properties and functions must be declared as static and they are accessed by the class name directly not by a class instance object.
+
+
+Sealed Classes
+Sealed class is used to stop a class to be inherited.
+Sealed classes are the reverse of abstract classes. While abstract classes are inherited and are refined in the derived class, sealed classes cannot be inherited.
+You can create an instance of a sealed class. A sealed class is used to prevent further refinement through inheritance.
+
